@@ -46,13 +46,14 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
+```
 1.Open a new project using Quartus II.
 2.Declare the inputs and outputs inside module projname().
 3.Set the reset value using register.
 4.Use commands like begin and end to stimulate the counter.
 5.For Up counter increment the count and for Down counter decrement the count.
 6.End the verilog programming.
-
+```
 
 
 ### PROGRAM 
@@ -92,20 +93,14 @@ endmodule
 
 
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+## RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### UP COUNTER:
 ![image](https://user-images.githubusercontent.com/94228215/169740429-84d56581-46ca-408d-a24e-7a35b5c8e994.png)
-
 ### DOWN COUNTER:
-
 ![image](https://user-images.githubusercontent.com/94228215/169740589-1fe3f73d-a4bb-47d2-9e9d-842051cf35a0.png)
 
 
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
+## TIMING DIGRAMS FOR COUNTER  
 ### UP COUNTER:
 ![image](https://user-images.githubusercontent.com/94228215/169740536-9fdab838-d1d4-4862-9596-4830cdb83d3a.png)
 ![image](https://user-images.githubusercontent.com/94228215/169740731-890bdba3-de51-4e7f-bbbe-5246d1b2d492.png)
@@ -116,12 +111,16 @@ endmodule
 
 
 
-### TRUTH TABLE 
+## TRUTH TABLE 
+### UP COUNTER:
+![image](https://user-images.githubusercontent.com/94228215/169741349-e6471adb-056f-4544-ac90-e199a769d3e0.png)
+### DOWN COUNTER:
+![image](https://user-images.githubusercontent.com/94228215/169741378-9c1c167f-130b-4392-b204-c63a5c8defce.png)
 
 
 
 
 
 
-### RESULTS 
-Thus Synchornous counters up counter and down counter circuits are studied and the truth table for different logic gates are verified.
+## RESULTS 
+Hence the Four bit Up counter and Down counter is implemented successfully and its functionality is validated.
